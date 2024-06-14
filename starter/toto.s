@@ -1,6 +1,6 @@
 ; compile : nasm -f elf32 toto.s && ld toto.o -m elf_i386 -o toto
 
-BITS 32
+BITS 64
 
 section .bss
 	buffer resb 10 ; char buf[256]
